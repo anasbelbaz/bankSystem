@@ -2,7 +2,7 @@ const { BN, expectEvent, expectRevert } = require('@openzeppelin/test-helpers')
 const { expect } = require('chai')
 const Bank = artifacts.require('Bank')
 
-contract('Epargne', (accounts) => {
+contract('Bank', (accounts) => {
   const owner = accounts[0]
   const recipient = accounts[1]
   const spender = accounts[2]
